@@ -1,97 +1,77 @@
-👕 Casual Wear – E-commerce Web Application
+👕 Casual Wear
 
-📌 Overview
+A full-stack e-commerce web application for buying and managing casual fashion products, built using Next.js, TypeScript, and MongoDB.
 
-Casual Wear is a modern e-commerce web application designed for browsing and purchasing fashion products online. The platform provides a seamless user experience with features like product browsing, authentication, cart management, and order handling.
+📖 About The Project
 
-🚀 Features
+Casual Wear is an online shopping platform developed to provide users with a smooth and intuitive shopping experience for casual clothing.
 
-🛍️ Browse products by category                                                                                                                                  🔍 Search and filter products
-👤 User authentication (Login / Register)
-🛒 Add to cart & manage cart items
-💳 Order placement (with optional payment integration)
-📧 Email notifications (order confirmation, password reset)
-🖼️ Image upload and management
-📱 Responsive design for all devices
+Users can browse products, add items to their cart, and place orders with optional online payment integration. The system also supports secure authentication and automated email notifications.
 
-🛠️ Tech Stack
+This project was developed during an internship to apply real-world full-stack development concepts.
 
+✨ Key Features
+🛍️ Product listing with categories
+🔍 Search and filtering functionality
+👤 User authentication (Signup / Login using JWT)
+🛒 Cart management system
+💳 Razorpay integration for secure online payments
+📧 Email notifications using Nodemailer (order confirmation & password reset)
+🖼️ Image upload and storage using Cloudinary
+📱 Fully responsive UI for mobile and desktop
+🛠️ Built With
 Frontend
-
 Next.js
-
-TypeScript
-
 React
-
-Tailwind CSS (or your styling framework)
-
+TypeScript
+Tailwind CSS
 Backend
-
 Node.js
-
 Express.js
-
 Database
-
 MongoDB
-
 Third-Party Services
-
-Razorpay (for payments)
-
-Nodemailer (for email services)
-
-Cloudinary (for image storage)
-
-📂 Project Structure
-
-Casual_Wear/
-
-│── components/        # Reusable UI components
-
-│── pages/             # Next.js pages (routes)
-
-│── public/            # Static assets
-
-│── styles/            # CSS / styling files
-
-│── backend/           # API and server logic
-
-│── models/            # Database schemas
-
-│── utils/             # Helper functions
-
-│── config/            # Configuration files
-
-⚙️ Installation & Setup
-
-1️⃣ Clone the repository
-
+Razorpay (Payment Gateway)
+Nodemailer (Email Service)
+Cloudinary (Image Storage)
+🚀 Getting Started
+Prerequisites
+Node.js (v16 or above)
+npm or yarn
+MongoDB Atlas or local database
+Installation
+# Clone the repository
 git clone https://github.com/your-username/casual-wear.git
 
+# Navigate into the project
 cd casual-wear
 
-2️⃣ Install dependencies
-
+# Install dependencies
 npm install
+🔑 Environment Variables
 
-3️⃣ Setup environment variables
-
-Create a .env file and add:
+Create a .env file and configure the following:
 
 MONGO_URI=your_mongodb_connection
-
 JWT_SECRET=your_secret_key
-
 RAZORPAY_KEY=your_key
-
+RAZORPAY_SECRET=your_secret
 EMAIL_USER=your_email
-
 EMAIL_PASS=your_password
-
 CLOUDINARY_URL=your_cloudinary_url
-
-4️⃣ Run the project
-
+▶️ Run the Application
 npm run dev
+
+Visit:
+👉 http://localhost:3000
+
+📂 Project Structure
+Casual_Wear/
+├── components/        # UI components  
+├── pages/             # Application routes (Next.js)  
+├── public/            # Static files  
+├── styles/            # CSS and Tailwind styles  
+├── backend/           # Server-side logic and APIs  
+├── models/            # MongoDB schemas  
+├── utils/             # Helper functions  
+├── config/            # Configuration files 
