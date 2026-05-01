@@ -11,6 +11,7 @@ Users can browse products, add items to their cart, and place orders with option
 This project was developed during an internship to apply real-world full-stack development concepts.
 
 ✨ Key Features
+
 🛍️ Product listing with categories
 🔍 Search and filtering functionality
 👤 User authentication (Signup / Login using JWT)
