@@ -73,6 +73,7 @@ npm install
 
 Create a .env file in the root directory and add:
 
+```bash
 MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret_key
 RAZORPAY_KEY=your_key
@@ -80,4 +81,29 @@ RAZORPAY_SECRET=your_secret
 EMAIL_USER=your_email
 EMAIL_PASS=your_password
 CLOUDINARY_URL=your_cloudinary_url
+```
 
+▶️ Run the Application
+
+```bash
+npm run dev
+```
+Visit:
+http://localhost:3000
+
+## 📂 Project Structure  
+
+```bash
+Casual_Wear/
+├── client/            # Frontend (Next.js)
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   └── utils/
+│
+├── server/            # Backend (Node.js + Express)
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   └── config/
