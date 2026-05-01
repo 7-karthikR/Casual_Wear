@@ -67,3 +67,18 @@ cd casual-wear
 
 # Install dependencies
 npm install
+```
+
+###🔑 Environment Variables
+
+Create a .env file in the root directory and add:
+
+```bash
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+RAZORPAY_KEY=your_key
+RAZORPAY_SECRET=your_secret
+EMAIL_USER=your_email
+EMAIL_PASS=your_password
+CLOUDINARY_URL=your_cloudinary_url
+```
