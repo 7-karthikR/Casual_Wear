@@ -6,8 +6,7 @@ Casual Wear is a modern e-commerce web application designed for browsing and pur
 
 🚀 Features
 
-🛍️ Browse products by category
-🔍 Search and filter products
+🛍️ Browse products by category                                                                                                                                  🔍 Search and filter products
 👤 User authentication (Login / Register)
 🛒 Add to cart & manage cart items
 💳 Order placement (with optional payment integration)
